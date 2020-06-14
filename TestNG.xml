@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Generate Tests">
+    <test name="Regression1" preserve-order="false">
+        <classes>
+
+            <class name="GenerateUserTest">
+                <methods>
+                    <exclude name="assertHeaders"/>
+                    <exclude name="assertCountry"/>
+                    <exclude name="assertLowerCountryCode"/>
+                    <exclude name="assertPhoneNumSchema"/>
+                    <exclude name="assertNameSchema"/>
+                    <exclude name="assertZip"/>
+                    <exclude name="assertDOB"/>
+                </methods>
+            </class>
+            <class name="GenerateUserNegativeTest">
+                <methods>
+
+                    <include name="assertNonExistCountryCodeTest"/>
+                    <include name="assertEmptyCountryCodeTest"/>
+                    <include name="assertNonExistContentType"/>
+                    <include name="assertNonExistEndPoint"/>
+                    <include name="assertNullCountryCodeTest"/>
+
+
+                </methods>
+        </class>
+
+
+    </classes>
+</test>
+
+        </suite> <!-- Suite -->
+
+
+
+
+

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="24" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="2279" started-at="2020-06-14T21:13:39Z" finished-at="2020-06-14T21:13:41Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="2279" started-at="2020-06-14T21:13:39Z" finished-at="2020-06-14T21:13:41Z">
+      <class name="GenerateUserNegativeTest">
+        <test-method status="PASS" signature="loadProperty()[pri:0, instance:GenerateUserNegativeTest@506e6d5e]" name="loadProperty" is-config="true" duration-ms="8" started-at="2020-06-14T21:13:39Z" finished-at="2020-06-14T21:13:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperty -->
+        <test-method status="PASS" signature="assertEmptyCountryCodeTest()[pri:0, instance:GenerateUserNegativeTest@506e6d5e]" name="assertEmptyCountryCodeTest" duration-ms="1322" started-at="2020-06-14T21:13:39Z" finished-at="2020-06-14T21:13:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertEmptyCountryCodeTest -->
+        <test-method status="PASS" signature="assertNonExistContentType(java.lang.String)[pri:0, instance:GenerateUserNegativeTest@506e6d5e]" name="assertNonExistContentType" duration-ms="377" started-at="2020-06-14T21:13:40Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNonExistContentType -->
+        <test-method status="PASS" signature="assertNonExistContentType(java.lang.String)[pri:0, instance:GenerateUserNegativeTest@506e6d5e]" name="assertNonExistContentType" duration-ms="33" started-at="2020-06-14T21:13:40Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNonExistContentType -->
+        <test-method status="PASS" signature="assertNonExistContentType(java.lang.String)[pri:0, instance:GenerateUserNegativeTest@506e6d5e]" name="assertNonExistContentType" duration-ms="30" started-at="2020-06-14T21:13:40Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNonExistContentType -->
+        <test-method status="PASS" signature="assertNonExistCountryCodeTest()[pri:0, instance:GenerateUserNegativeTest@506e6d5e]" name="assertNonExistCountryCodeTest" duration-ms="16" started-at="2020-06-14T21:13:40Z" finished-at="2020-06-14T21:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNonExistCountryCodeTest -->
+        <test-method status="PASS" signature="assertNonExistEndPoint(java.lang.String)[pri:0, instance:GenerateUserNegativeTest@506e6d5e]" name="assertNonExistEndPoint" duration-ms="24" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNonExistEndPoint -->
+        <test-method status="PASS" signature="assertNonExistEndPoint(java.lang.String)[pri:0, instance:GenerateUserNegativeTest@506e6d5e]" name="assertNonExistEndPoint" duration-ms="29" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNonExistEndPoint -->
+        <test-method status="PASS" signature="assertNonExistEndPoint(java.lang.String)[pri:0, instance:GenerateUserNegativeTest@506e6d5e]" name="assertNonExistEndPoint" duration-ms="21" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNonExistEndPoint -->
+        <test-method status="PASS" signature="assertNullCountryCodeTest()[pri:0, instance:GenerateUserNegativeTest@506e6d5e]" name="assertNullCountryCodeTest" duration-ms="14" started-at="2020-06-14T21:13:41Z" finished-at="2020-06-14T21:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNullCountryCodeTest -->
+      </class> <!-- GenerateUserNegativeTest -->
+      <class name="GenerateUserTest">
+        <test-method status="PASS" signature="assertCountry(java.lang.String)[pri:0, instance:GenerateUserTest@96532d6]" name="assertCountry" duration-ms="68" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertCountry -->
+        <test-method status="PASS" signature="assertCountry(java.lang.String)[pri:0, instance:GenerateUserTest@96532d6]" name="assertCountry" duration-ms="46" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertCountry -->
+        <test-method status="PASS" signature="assertCountry(java.lang.String)[pri:0, instance:GenerateUserTest@96532d6]" name="assertCountry" duration-ms="29" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertCountry -->
+        <test-method status="PASS" signature="assertDOB()[pri:0, instance:GenerateUserTest@96532d6]" name="assertDOB" duration-ms="17" started-at="2020-06-14T21:13:41Z" finished-at="2020-06-14T21:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertDOB -->
+        <test-method status="PASS" signature="assertHeaders(java.lang.String)[pri:0, instance:GenerateUserTest@96532d6]" name="assertHeaders" duration-ms="15" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertHeaders -->
+        <test-method status="PASS" signature="assertHeaders(java.lang.String)[pri:0, instance:GenerateUserTest@96532d6]" name="assertHeaders" duration-ms="13" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertHeaders -->
+        <test-method status="PASS" signature="assertHeaders(java.lang.String)[pri:0, instance:GenerateUserTest@96532d6]" name="assertHeaders" duration-ms="26" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertHeaders -->
+        <test-method status="PASS" signature="assertLowerCountryCode(java.lang.String)[pri:0, instance:GenerateUserTest@96532d6]" name="assertLowerCountryCode" duration-ms="40" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertLowerCountryCode -->
+        <test-method status="PASS" signature="assertLowerCountryCode(java.lang.String)[pri:0, instance:GenerateUserTest@96532d6]" name="assertLowerCountryCode" duration-ms="44" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertLowerCountryCode -->
+        <test-method status="PASS" signature="assertLowerCountryCode(java.lang.String)[pri:0, instance:GenerateUserTest@96532d6]" name="assertLowerCountryCode" duration-ms="41" started-at="2020-06-14T21:13:41Z" data-provider="data-for-countrycode" finished-at="2020-06-14T21:13:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertLowerCountryCode -->
+        <test-method status="PASS" signature="assertNameSchema()[pri:0, instance:GenerateUserTest@96532d6]" name="assertNameSchema" duration-ms="16" started-at="2020-06-14T21:13:41Z" finished-at="2020-06-14T21:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertNameSchema -->
+        <test-method status="PASS" signature="assertPhoneNumSchema()[pri:0, instance:GenerateUserTest@96532d6]" name="assertPhoneNumSchema" duration-ms="14" started-at="2020-06-14T21:13:41Z" finished-at="2020-06-14T21:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertPhoneNumSchema -->
+        <test-method status="PASS" signature="assertZip()[pri:0, instance:GenerateUserTest@96532d6]" name="assertZip" duration-ms="12" started-at="2020-06-14T21:13:41Z" finished-at="2020-06-14T21:13:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertZip -->
+      </class> <!-- GenerateUserTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
