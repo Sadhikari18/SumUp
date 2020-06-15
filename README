@@ -4,21 +4,22 @@ Program written in JAVA to run the generate test
 Instruction to run the test
 
 JAVA 1.8 or up is needed
-Some kind of editor is needed if want to run some test using right click(preferred is intellij idea)
+Some kind of editor is needed if want to run the test using right click(preferred is intellij idea)
 maven installation is needed
 
-I tried to containerized in docker but due to time constrained I feel like it will take more time
+I tried to containerized in docker but due to time constrained I feel like it will take more time(I tried to run the container but some issue came)
 
 
+1) This test can be run using the testing.xml file or by "mvn test"(provided maven is installed) or by right clicking the class/method and running the test
 
-1) Either this test can be run using the testing.xml file or by "mvn test"(provided maven is installed) or by right clicking the class/method and running the test
-
-2)with maven installed run the command in the root folder "mvn test"
+2)with maven installed run the command --> "mvn test" in the root folder
 
 		OR
-  Open the project in editor like IntelliJ idea and right click the testing.xml file and run the test
+  Open the project in editor like IntelliJ idea and right click the testing.xml file and run the test, or right click in the corresponding test method
 
 3)Report is generated  in the folder target-->gunfire-reports-->emalable-report.html (try open in browser)
+
+4) All the Test Strategy are in 
 
 
 
